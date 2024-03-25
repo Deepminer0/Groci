@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+
+html,body{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(8, 8, 8); */
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: rgb(0, 0, 0);
+    height: 50px;
+    width: 100%;
+    color: white;
+}
+h1{
+    font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+    margin-left: 25px;
+  font-style: normal;
+  padding-top:15px;
+  font-size: 15px;
+}
+.mainbanner{
+    
+        /* border: 1px solid red; */
+        height: 190px;
+        margin-left: 150px;
+        display: flex;
+        width: 80%;
+        margin-top: 20px;
+        /* border: 1px solid rgb(223, 219, 219); */
+        border-radius: 20px;
+        background-color: rgb(0, 0, 0);
+        /* background-image: linear-gradient(to right, #000000, #3b3b3b, #777777, #b9b9b9, #ffffff); */
+        /* background-image: linear-gradient(to right, #f30a0a, #d30b0b, #d8e61c, #b0db12, #716f6f); */
+        background-image: linear-gradient(to right, #e04e01, #ea7600, #ef9a00, #efbe00, #ebe112);
+        /* background-image: linear-gradient(to rgb(202, 31, 31), red , white); */
+        color: rgb(255, 255, 255);
+        padding-top: 5px;
+        
+    
+}
+.Heading{
+    /* font-size: 20px; */
+    float: left;
+    margin-top: 3px;
+    font-size: 30px;
+}
+.headingpara{
+    color: rgb(255, 255, 255);
+    padding-top:15px;
+    margin-left: 28px;
+    font-family: "Lexend", sans-serif;
+    font-size: 15px;
+}
+.repairbutton{
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    margin-left: 24px;
+    font-style: normal;
+    margin-top: 30px;
+    font-weight: 200;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid #ffffff; */
+    border-radius: 9999px;
+    background-color: rgb(0, 0, 0);
+    padding: 0.625rem 1.5rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    outline: 0;
+    transition: all  .2s ease;
+    text-decoration: none;
+  }
+  
+  .repairbutton:hover {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    font-weight: 250;
+  }
+.ata{
+   float: right;
+   height: 190px;
+   margin-right: -140%;
+   margin-top: -90px;
+}
+
+/* !-- ------------------------------bodhgaya store--------------------- */
+.bodhgayastore{
+    /* border: 1px solid green;s */
+    height: 150px;
+    margin-top: 10px;
+    
+}
+h2{
+    font-family: "Lexend", sans-serif; 
+    margin-left: 130px;
+    color: #252423;
+    margin-top: -60px;
+   
+    /* text-shadow: 2px 2px #b69502; */
+}
+.buddha{
+    height: 90px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+ 
+}
+.box1{
+    width: 60px;
+    height: 60px;
+    margin: 9px;
+    margin-left: 3%;
+    background-color: rgb(241, 241, 238);
+    border:1px solid #f3edb2;
+    border-radius: 5px;
+    object-fit: cover;
+    text-align: center;
+}
+.Shop{
+    height: 60px;
+}
+.container2{
+    width: 100%;
+    height: 170%;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    /* margin-left: 90px;ss */
+    margin-top: -607px;
+    /* padding-top: 5px; */
+}
+    .box2{
+        width: 300px;
+        height: 60px;
+        margin: 9px;
+        margin-left: 10%;
+        background-color: rgb(248, 243, 243);
+        border:1px solid #f3edb2;
+        border-radius: 5px;
+        object-fit: cover;
+        text-align: center;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    }
+    h3{
+        font-family: "Lexend", sans-serif; 
+        text-transform: uppercase;
+        padding-top: 15px;
+    }
+
+
+    
+.call{
+    width: 100%;
+    height: 190%;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    /* margin-left: 90px;ss */
+    margin-top: -1031px;
+    /* padding-top: 5px; */
+}
+.calltoaction{
+    width: 10px;
+    height: 40px;
+    margin: 9px;
+    margin-left: 38%;
+    background-color: rgb(241, 241, 238);
+    border:1px solid #f3edb2;
+    border-radius: 55px;
+    object-fit: cover;
+    
+}
+.callicon{
+    height: 20px;
+    padding: 5px;
+}
+
+
+
+.text{
+    width: 100%;
+    height: 170%;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    /* margin-left: 90px;ss */
+    margin-top: -1031px;
+    /* padding-top: 5px; */
+}
+.texttoaction{
+    width: 60px;
+    height: 60px;
+    margin: 9px;
+    margin-left: 45%;
+    background-color: rgb(241, 241, 238);
+    /* border:1px solid #f8f2ef; */
+    border:1px solid #f3edb2;
+    border-radius: 55px;
+    object-fit: cover;
+    
+}
+.texticon{
+    height: 50px;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------media query responsive----------------- */
+@media only screen and ( max-width:412px){
+    .mainbanner{
+    height: 170px;
+    margin-left: 10px;
+    width: 93%;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: black;
+    }
+    .Heading{
+        font-size: 25px;
+        float: left;
+        margin-top: 3px;
+       
+    }
+    .headingpara{
+        color: rgb(255, 255, 255);
+        padding-top:5px;
+        margin-left: 25px;
+        font-family: "Lexend", sans-serif;
+    }
+    .repairbutton{
+        float: left;
+    }
+    .container2{
+        width: 100%;
+        height: 190%;
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid black; */
+        /* margin-left: 90px;ss */
+        margin-top: -730px;
+        /* padding-top: 5px; */
+    }
+    .box1{
+        width: 45px;
+        height: 45px;
+        margin: 9px;
+        margin-left: 3%;
+        background-color: rgb(241, 241, 238);
+        border:1px solid #f3edb2;
+        border-radius: 5px;
+        object-fit: cover;
+        text-align: center;
+    }
+    .Shop{
+        height: 45px;
+    }
+    .ata{
+        /* float: right; */
+        height: 160px;
+        margin-right: -14%;
+        margin-top: -70px;
+     }
+
+
+
+     .container2{
+        width: 100%;
+        height: 170%;
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid black; */
+        /* margin-left: 90px;ss */
+        margin-top: -750px;
+        
+        /* padding-top: 5px; */
+    }
+     .box2{
+        width: 190px;
+        height: 45px;
+        margin: 9px;
+        margin-left: 18%;
+        background-color: rgb(248, 243, 243);
+        border:1px solid #f3edb2;
+        border-radius: 5px;
+        object-fit: cover;
+        text-align: center;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    }
+    h3{
+        font-family: "Lexend", sans-serif; 
+        text-transform: uppercase;
+        padding-top: 15px;
+        font-size: 11px;
+    }
+     h2{
+        font-family: "Lexend", sans-serif; 
+        margin-left: 100px;
+        font-size: 16px;
+        color: #252423;
+        margin-top: -60px;
+       
+        /* text-shadow: 2px 2px #b69502; */
+    }
+    .buddha{
+        height: 90px;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+
+
+
+    .call{
+        width: 100%;
+        height: 5%;
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid black; */
+        /* margin-left: 90px;ss */
+        margin-top: -320%;
+        
+        
+    }
+    .calltoaction{
+        width: 50px;
+        border-radius: 10px;
+        height: 45px;
+        margin:9.5px;
+        margin-left: 70%;
+        background-color: rgb(224, 223, 223);
+        border:1px solid #f3edb2;
+        border-radius: 5px;
+        object-fit: cover;
+        text-align: center;
+        /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
+    }
+    .callicon{
+        height: 30px;
+        padding: 5px;
+    }
+        
+}
+.text{
+    width: 100%;
+    height: 170%;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    /* margin-left: 90px;ss */
+    margin-top:-39px;
+    /* padding-top: 5px; */
+}
+.texttoaction{
+    width: 50px;
+    border-radius: 10px;
+    height: 45px;
+    margin:9.1px;
+    margin-left: 85%;
+    background-color: rgb(224, 223, 223);
+    border:1px solid #f3edb2;
+    border-radius: 5px;
+    object-fit: cover;
+    text-align: center;
+}
+.texticon{
+    height: 30px;
+    padding: 5px;
+}
+
+
